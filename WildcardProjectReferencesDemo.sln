@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72A42694-FECA-47C0-B1EF-107DD3CF8466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_PublicProducts", "_PublicProducts", "{FBDEB3F9-6292-4736-82AD-ED1C3DD8F144}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesktopApp", "DesktopApp", "{9D311F64-C313-4AF0-B371-D9DD6E6B7439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildcardProjectReferencesDemo", "MainProjects\src\WildcardProjectReferencesDemo\WildcardProjectReferencesDemo.csproj", "{9B53B004-4523-402B-9A33-834F4D417F37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B53B004-4523-402B-9A33-834F4D417F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B53B004-4523-402B-9A33-834F4D417F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B53B004-4523-402B-9A33-834F4D417F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B53B004-4523-402B-9A33-834F4D417F37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBDEB3F9-6292-4736-82AD-ED1C3DD8F144} = {72A42694-FECA-47C0-B1EF-107DD3CF8466}
+		{9D311F64-C313-4AF0-B371-D9DD6E6B7439} = {FBDEB3F9-6292-4736-82AD-ED1C3DD8F144}
+		{9B53B004-4523-402B-9A33-834F4D417F37} = {9D311F64-C313-4AF0-B371-D9DD6E6B7439}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD05100-813F-4AB2-BEE9-E187C5C56D82}
+	EndGlobalSection
+EndGlobal
